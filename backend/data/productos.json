@@ -1,0 +1,19 @@
+[
+    {
+        "id": "1",
+        "id_categoria" : "1",
+        "nombre" : "Bolsa",
+        "descripcion" : "",
+        "precio" : 2000,
+        "activo" : true
+    },
+    {
+        "id": "2",
+        "id_categoria" : "1",
+        "nombre" : "caja",
+        "descripcion" : "",
+        "precio" : 3000,
+        "activo" : true
+    }
+]
+
