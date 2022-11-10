@@ -39,10 +39,21 @@ router.post('/products/new-product', async (req, res) => {
 });
 
 router.get('/products', async (req, res) => {
-    const products = await Product.find().lean();
+    const products = await Product.find().lean().sort({date: 'desc'});
     res.render('products/all-products', { products });
     console.log(products)
 });
 
+router.get('/products/categoryaseo', async (req, res) => {
+    const products = await Product.find({"category": "aseo"}).lean();
+    res.render('products/all-products', { products });
+    console.log(products)
+});
+
+router.get('/products/categoryalimento', async (req, res) => {
+    const products = await Product.find({"category": "Alimento"}).lean();
+    res.render('products/all-products', { products });
+    console.log(products)
+});
 
 module.exports = router;
