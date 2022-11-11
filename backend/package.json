@@ -1,13 +1,13 @@
 {
-  "name": "proyectos",
+  "name": "omegapetshop",
   "version": "1.0.0",
-  "description": "Backend de proyecto de tareas",
+  "description": "Backend de proyecto Omega Pet Shop Grupo: 5",
   "main": "index.js",
   "scripts": {
     "start": "node .",
     "dev": "nodemon ."
   },
-  "author": "David",
+  "author": "Sebastian",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
