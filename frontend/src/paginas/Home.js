@@ -32,7 +32,7 @@ const Home = () => {
                                     <div className="icon">
                                         <i className="fa fa-edit" />
                                     </div>
-                                    <Link to={"/proyectos-admin"} className="small-box-footer">Ver Categorias <i className="fas fa-arrow-circle-right" /></Link>
+                                    <Link to={"/categorias-admin"} className="small-box-footer">Ver Categorias <i className="fas fa-arrow-circle-right" /></Link>
                                 </div>
                             </div>
 
