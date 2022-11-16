@@ -4,8 +4,8 @@
   "description": "Backend de proyecto Omega Pet Shop Grupo: 5",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon ."
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Sebastian",
   "license": "ISC",
